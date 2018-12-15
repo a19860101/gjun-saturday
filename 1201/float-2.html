@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 800px;
+            background-color: #999;
+            /* height: 300px; */
+            /* overflow: auto; */
+        }
+        .box {
+            width: 200px;
+            /* height: 400px; */
+            background-color: #058;
+
+            float: left;
+        }
+        .box2 {
+            width: 200px;
+            /* height: 300px; */
+            background-color: #1d9ae7;
+
+            float: left;
+        }
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="container clearfix">
+        <div class="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, laboriosam recusandae culpa numquam sint voluptatibus, ipsum officia, tempora veniam corporis aspernatur minus doloribus eius laudantium accusamus enim quos quasi quaerat.</div>
+        <div class="box2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint facere obcaecati aliquam velit modi dignissimos itaque porro vel vitae alias fuga delectus fugit sequi libero mollitia similique inventore quod, asperiores ratione dolorum nihil? In deleniti veniam, alias voluptatum nostrum, unde a ea distinctio neque fugit explicabo, nesciunt aliquam sit cupiditate.</div>
+        
+    </div>
+</body>
+</html>

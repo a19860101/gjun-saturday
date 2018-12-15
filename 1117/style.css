@@ -1,0 +1,14 @@
+        /*
+         標籤選取器 
+         類別選取器 class
+         ID選取器--只能使用一次
+         */
+        h1 {
+            color: red;
+        }
+         .abc {
+            color: red;
+        }
+        #xyz {
+            color: darkgoldenrod;
+        }

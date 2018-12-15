@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container {
+            font-size: 0;
+            margin-left: auto;
+            margin-right: auto;
+            width: 900px;
+            /* text-align: center; */
+        }
+
+        .box {
+            width: 280px;
+            height: 100px;
+            background-color: #0af;
+            display: inline-block;
+            font-size: 16px;
+            overflow: hidden;
+            text-align: left;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 10px;
+            border: 2px solid #000;
+            /*
+            總寬度 = padding + border + width
+            總高度度 = padding + border + height
+            */
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">Lorem ipsum dolor sit amet.</div>
+        <div class="box">Lorem ipsum dolor sit amet.</div>
+        <div class="box">Lorem ipsum dolor sit amet.</div>
+    </div>
+</body>
+
+</html>
